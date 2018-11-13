@@ -1,7 +1,6 @@
 <?php
     require '../class/curl_api.php';
-
-    $tipoJSON		= get_curl('500');
+    
 	$dominioCodigo 	= $_GET['dominio'];
 
 	switch($dominioCodigo){

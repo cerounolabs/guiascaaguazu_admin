@@ -10,7 +10,7 @@
     include '../include/header.php';
 ?>
 	
-	<title>Panel Administrador - Localidad Pa&iacute;s</title>
+	<title>Panel Administrador - Empresa</title>
 </head>
 
 <body>
@@ -50,7 +50,7 @@
                                     <li class="breadcrumb-item">
                                         <a href="../public/home.php">Home</a>
                                     </li>
-                                    <li class="breadcrumb-item active" aria-current="page">Localidad Pa&iacute;s</li>
+                                    <li class="breadcrumb-item active" aria-current="page">Empresa</li>
                                 </ol>
                             </nav>
                         </div>
@@ -73,9 +73,9 @@
                         <div class="card">
                             <div class="card-body">
                                 <div class="row">
-                                	<h4 class="col-10 card-title">Localidad Pa&iacute;s</h4>
+                                	<h4 class="col-10 card-title">Empresa</h4>
                                 	<h4 class="col-2 card-title" style="text-align: right;">
-                                		<a class="btn btn-info" href="../public/locmlpm.php?mode=C&codigo=0" role="button" title="Agregar"><i class="ti-plus"></i></a>
+                                		<a class="btn btn-info" href="../public/empmemm.php?mode=C&codigo=0" role="button" title="Agregar"><i class="ti-plus"></i></a>
                                 	</h4>
 								</div>
                                 <div class="table-responsive">
@@ -84,7 +84,12 @@
                                             <tr>
                                                 <th>C&Oacute;DIGO</th>
                                                 <th>ESTADO</th>
-                                                <th>PA&Iacute;S</th>
+                                                <th>RUBRO</th>
+                                                <th>EMPRESA</th>
+                                                <th>R.U.C.</th>
+                                                <th>LOGO</th>
+                                                <th>OBS ADMINISTRADOR</th>
+                                                <th>OBS CLIENTE</th>
                                                 <th style="width: 130px;">&nbsp;</th>
                                             </tr>
                                         </thead>
@@ -92,7 +97,12 @@
                                             <tr>
                                                 <th>C&Oacute;DIGO</th>
                                                 <th>ESTADO</th>
-                                                <th>PA&Iacute;S</th>
+                                                <th>RUBRO</th>
+                                                <th>EMPRESA</th>
+                                                <th>R.U.C.</th>
+                                                <th>LOGO</th>
+                                                <th>OBS ADMINISTRADOR</th>
+                                                <th>OBS CLIENTE</th>
                                                 <th style="width: 130px;">&nbsp;</th>
                                             </tr>
                                         </tfoot>
@@ -140,6 +150,6 @@
     include '../include/footer.php';
 ?>
     
-    <script src="../js/locmlp.js"></script>
+    <script src="../js/empmem.js"></script>
 </body>
 </html>
